@@ -1,4 +1,6 @@
 """A simple function to demonstrate returning a value."""
+
+
 def choices():
     """
     RPS
@@ -7,6 +9,7 @@ def choices():
     comp_choice = "paper"
     return comp_choice
 
+
 CHOICES = choices()
 
-print (CHOICES)
+print(CHOICES)
