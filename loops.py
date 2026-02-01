@@ -8,10 +8,15 @@ for number2 in range(1, 4):
 
 
 # for-else
-successful = False
+SUCCESSFUL = False
 for i in range(3):
-    if successful:
+    if SUCCESSFUL:
         print("successful")
         break
 else:
     print("not successful")
+
+NUMBER = 100
+while NUMBER > 0:
+    print(NUMBER)
+    NUMBER //= 2
